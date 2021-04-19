@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hipotenusa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <h1 id="cenH" class="cenH">Pitagoras: Hipotenusa</h1>
+        <h2 id="formula" class="formula">Formula: ℎ = √(𝐶1^2 + 𝐶2^2)</h2>
+
+
+        <div class="centrar" id="centrar">
+
+            <form action="hiponusar" method="get" onsubmit ="return validarInformacion()">
+
+                <label class="lab" for="c1">Cateto 1:</label>
+                <input type="number" class="campoH" id="c1" name="c1">
+                <label class="lab" for="c2">Cateto 2:</label>
+                <input type="number" class="campoH" id="c2" name="c2">
+                <input type="submit" id="btnH" class="btnH" value="Calcular">
+            </form>
+
+        </div>
+
+        <script src="js/main.js" ></script>
+    </body>
+</html>

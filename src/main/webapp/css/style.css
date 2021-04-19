@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #DB855B;
+    color: #5CDBD2;
+    font-family: sans-serif;
+}
+#cenH{
+    width: 100%;
+    height: 10vh;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #FFAD85;
+    color: #8F4E2E;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 10%;
+}
+
+ul li{
+    list-style: none;
+    margin: 20px;
+    height: 50px;
+    width: 700px;
+}
+
+.btnA{
+    background-color: #c3c5a1;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 8px 18px;
+    border-radius: 2px;
+    transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+
+}
+
+.btnA:hover {
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+#numero{
+    font-size: 20px;
+    width: 100%;
+}
+
+#btnP1{
+    margin-top: 7px;
+    width: 100%;
+    height: 30px;
+    background-color: #c3c5a1;
+    transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+}
+
+#btnP1:hover, .btnH:hover{
+    cursor: pointer;
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+.formula{
+    color: white;
+    background-color: #1F8F87;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.campoH{
+    font-size: 20px;
+    width: 100%;
+    height: 27px;
+    align-items: center;
+}
+
+.lab{
+    margin: 7px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.btnH{
+    margin-top: 7px;
+    width: 100%;
+    height: 30px;
+    background-color: #c3c5a1;
+    transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+}
+
+#showH{
+    font-size: 25px;
+    text-align: center;
+    margin: 7px;
+    padding: 3px;
+}
+
+#showH p{
+    padding: 3px;
+}
